@@ -35,11 +35,11 @@ public class LayeredPaneDemo extends JFrame implements ActionListener     {
 	super("LayeredPaneDemo");
 
         if(icon[0] == null) {
-           icon[0] = new ImageIcon("images/Bird.gif", layerStrings[0]);
-           icon[1] = new ImageIcon("images/Cat.gif", layerStrings[1]);
-           icon[2] = new ImageIcon("images/Dog.gif", layerStrings[2]);
-           icon[3] = new ImageIcon("images/Rabbit.gif",  layerStrings[3]);
-           icon[4] = new ImageIcon("images/Pig.gif",  layerStrings[4]);
+           icon[0] = new ImageIcon("src/images/Desert.jpggif", layerStrings[0]);
+           icon[1] = new ImageIcon("src/images/Jellyfish.jpg", layerStrings[1]);
+           icon[2] = new ImageIcon("src/images/Koala.jpg", layerStrings[2]);
+           icon[3] = new ImageIcon("src/images/Penguins.jpg",  layerStrings[3]);
+           icon[4] = new ImageIcon("src/images/Tulips.jpg",  layerStrings[4]);
         }
 
         layerList = new JComboBox(layerStrings);
